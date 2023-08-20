@@ -14,8 +14,8 @@ const refs = {
 
 refs.start.addEventListener('click', onStartClick);
 
-refs.start.setAttribute('disabled', '');
-// refs.start.disabled = true;
+// refs.start.setAttribute('disabled', '');
+refs.start.disabled = true;
 
 const options = {
   enableTime: true,

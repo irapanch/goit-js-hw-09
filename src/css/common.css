@@ -20,14 +20,14 @@ img {
 /* TIMER */
 input {
   margin-top: 25px;
-  margin-left: 400px;
+  margin-left: 40px;
   margin-right: 15px;
   font-size: 16px;
 }
 .timer {
   display: flex;
-  gap: 17px;
-  margin-left: 387px;
+  gap: 8px;
+  margin-left: 24px;
   
 }
 
@@ -47,7 +47,7 @@ span[data-days]{
 span[data-hours]::after,
 span[data-minutes]::after{
   content: ':';
-  padding-left: 13px;
+  padding-left: 9px;
 }
 .label {
   font-size: 14px;
